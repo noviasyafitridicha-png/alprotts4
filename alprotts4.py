@@ -15,7 +15,7 @@ main
 data_panen = {
     "Padi": 120,
     "Jagung": 80,
-    "Kedelai": 45
+    "Kedelai": 48
 }
 
 
@@ -26,6 +26,7 @@ def hitung_total(data):
 
 def input_data():
     """
+    
     Meminta pengguna memasukkan data hasil panen baru (nama komoditas & jumlah),
     lalu menambahkan atau memperbarui data pada dictionary data_panen.
     """
